@@ -113,6 +113,26 @@ void eliminareSuccesiva(char s[]){
         dr--;
     }
 }
+///4
+/*
+void afisMaxPeLinii(char a[100][100],int n,int m){
+    for(int i=0;i<n;i++){
+        int Max=0;
+        int poz=0;
+        for(int j=0;j<m;j++){
+            if(strlen(a[i][j]>Max)){
+                Max=strlen(a[i][j]);
+                poz=j;
+            }
+        }
+        cout<<a[i][poz]<<endl;
+    }
+}
+*/
+
+
+
+
 
 ///5
 
@@ -129,10 +149,39 @@ void transforma(char s[]){
 }
 
 ///6
-void maximConcatenare(char v[100][100], int n){
+void cuvantMaxim(char v[100][100], int n){
+    char rez[100];
+    int Max=0;
     for(int i=0;i<n;i++){
-
+        for(int j=i+1;j<n;j++){
+            char aux[100];
+            strcpy(aux,v[i]);
+            strcat(aux,v[j]);
+            if(strlen(aux)>Max){
+                Max=strlen(aux);
+                strcpy(rez,aux);
+            }
+        }
     }
+    cout<<rez;
+}
+
+///7
+
+void cuvantMinim(char v[100][100],int n){
+    char rez[100];
+    for(int i=0;i<n;i++){
+        for(int j=i+1;j<n;j++){
+            char aux[100];
+            strcpy(aux,v[i]);
+            strcat(aux,v[j]);
+            if(strcmp(aux,rez)<0){
+                strcpy(rez,aux);
+            }
+        }
+    }
+    cout<<rez;
+}
 
 
 

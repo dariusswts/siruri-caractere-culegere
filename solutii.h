@@ -74,5 +74,19 @@ void rez5(){
 
 }
 
+///6
+void rez6(){
+    int n=5;
+    char s[100][100]={
+       "mama",
+       "arc",
+       "conduce",
+       "paine",
+       "vine" };
+    char v[100][100];
+    char rez[100];
+    cuvantMaxim(s,n);
+}
+
 
 #endif // solutii.h

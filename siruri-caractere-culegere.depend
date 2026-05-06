@@ -1,10 +1,10 @@
 # depslib dependency file v1.0
-1777917565 source:c:\mycode\siruri-caractere\siruri-caractere-culegere\main.cpp
+1778087821 source:c:\mycode\siruri-caractere\siruri-caractere-culegere\main.cpp
 	<iostream>
 	"functii.h"
 	<string.h>
 
-1777917587 c:\mycode\siruri-caractere\siruri-caractere-culegere\functii.h
+1778087582 c:\mycode\siruri-caractere\siruri-caractere-culegere\functii.h
 	<string.h>
 	<fstream>
 
