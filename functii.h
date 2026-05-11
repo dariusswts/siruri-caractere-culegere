@@ -168,15 +168,17 @@ void cuvantMaxim(char v[100][100], int n){
 
 ///7
 
-void cuvantMinim(char v[100][100],int n){
+void cuvantMin(char v[100][100],int n){
+    bool primul=true;
     char rez[100];
     for(int i=0;i<n;i++){
         for(int j=i+1;j<n;j++){
             char aux[100];
             strcpy(aux,v[i]);
             strcat(aux,v[j]);
-            if(strcmp(aux,rez)<0){
+            if(primul||strcmp(aux,rez)<0){
                 strcpy(rez,aux);
+                primul=false;
             }
         }
     }

@@ -36,6 +36,7 @@
 		<Unit filename="functii.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="solutii.h" />
+		<Unit filename="tema.h" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>

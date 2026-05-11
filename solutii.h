@@ -88,5 +88,18 @@ void rez6(){
     cuvantMaxim(s,n);
 }
 
+///7
+void rez7(){
+    int n=5;
+    char s[100][100]={
+       "mama",
+       "arc",
+       "conduce",
+       "paine",
+       "vine" };
+    cuvantMin(s,n);
+    ///cuvantul
+}
+
 
 #endif // solutii.h
