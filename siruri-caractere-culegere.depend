@@ -1,10 +1,14 @@
 # depslib dependency file v1.0
-1778087821 source:c:\mycode\siruri-caractere\siruri-caractere-culegere\main.cpp
+1778521521 source:c:\mycode\siruri-caractere\siruri-caractere-culegere\main.cpp
 	<iostream>
-	"functii.h"
+	"corectarea_temei.h"
 	<string.h>
 
 1778087582 c:\mycode\siruri-caractere\siruri-caractere-culegere\functii.h
+	<string.h>
+	<fstream>
+
+1778521489 c:\mycode\siruri-caractere\siruri-caractere-culegere\corectarea_temei.h
 	<string.h>
 	<fstream>
 

@@ -67,6 +67,8 @@ bool esteVocala(char c){
     return strchr("aeiou",c)!=NULL;
 }
 
+
+
 ///12
 bool esteNumar(char s[]){
     for(int i=0;s[i]!='\0';i++){
